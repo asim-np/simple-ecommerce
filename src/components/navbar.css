@@ -1,0 +1,83 @@
+nav {
+    background: var(--color-light-primary);
+    width: 100%;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+
+nav .containers .main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 1rem 0;
+    padding: 0 5rem;
+}
+
+nav .main-container .logo {
+    color: var(--color-dark-primary);
+}
+
+nav .main-container .search-bar {
+    background-color: var(--color-text-icon);
+    border-radius: var(--border-radius);
+
+}
+
+
+nav .search-bar input[type="search"] {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: var(--color-primary-text);
+    padding: 0.5rem 1rem;
+}
+
+
+nav .main-container .search-bar a {
+    margin-right: 1rem;
+}
+
+nav .login-cart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+nav .login-cart .login-btn .login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+nav .login-cart .cart-btn .cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+nav .containers .sub-container {
+    width: 100%;
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .sub-container a {
+    color: var(--color-secondary-text);
+    font-size: 14px;
+}
+
+
+nav .sub-container a:hover {
+    color: var(--color-text-icon);
+    
+}
